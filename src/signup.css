@@ -1,0 +1,68 @@
+
+	.floating-label-group {
+		display: flex;
+		/* flex-direction: column; */
+		
+		position: relative;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-right: 5px;
+		/* border: 10px solid red; */
+		
+		/* background-color: brown; */
+		/* height: 20px; */
+		
+	}
+
+	/* .eyeIcon{
+		z-index: 9999;
+		position: absolute;
+		top: 4%;
+		right: 80%;
+		justify-self: flex-end;
+
+		
+	} */
+
+		.floating-label {
+			font-size: 15px;
+			color: black;
+			position: absolute;
+			pointer-events: none;
+			top: 3px;
+			left: 12px;
+			transition: all 0.1s ease;
+			/* height:100px;
+			width: 200px; */
+			
+		}
+	
+		input:focus ~ .floating-label,
+		input:not(:focus):valid ~ .floating-label {
+			top: -15px;
+			bottom: 0px;
+			left: 0px;
+			font-size: 12px;
+			opacity: 1;
+			color: #404040;
+			
+		}
+		i{
+			position: absolute;
+			left: 150px;
+			bottom: 3px;
+
+		}
+		
+
+
+.signup{
+	display: flex;
+	justify-content: center;
+	/* background-color: red; */
+	/* height: 100vh; */
+	margin: auto;
+	width: 100vw;
+	/* display: flex; */
+}
+

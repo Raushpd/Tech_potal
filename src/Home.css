@@ -1,0 +1,118 @@
+
+
+.user_form, .user_form1, .user_form2, .user_form3, .user_form4{
+    
+    display :flex;
+    justify-content: space-around; 
+    /* background-color: red; */
+    width:60vw;
+}
+
+#files{
+    /* background-color: #ff0000; */
+    display :flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin:10px;
+
+}
+
+#py{
+    display :flex;
+    justify-content: space-around; 
+    align-items: center;
+    /* margin:10px; */
+}
+
+#py_text{
+    margin-right: 20px;
+}
+#modal_text{
+    margin-right: 20px;
+}
+
+#modal{
+    display :flex;
+    justify-content: space-around; 
+    align-items: center;
+    /* margin:10px; */
+}
+    
+
+#company{
+    width:100%;
+    margin: 5px;
+    /* justify-content: center; */
+    
+}
+
+#crop{
+    width:100%;
+    margin: 5px;
+    /* background-color: yellow; */
+    /* border-color: blue; */
+   
+}
+
+#machine{
+    padding: 0;
+    width:100%;
+    margin: 5px;
+    /* justify-content: center; */
+    
+}
+
+.line > hr{
+    width: 110%;
+    margin-left:-18px ;
+}
+
+#variety
+{
+    padding: 0;
+    width:100%;
+    margin: 5px;
+    /* justify-content: center; */
+    
+    
+}
+
+.option{
+    
+    
+    width:60vw;
+    
+}
+
+h3,h2{
+    text-decoration: underline;
+}
+.App{
+    /* margin-right:60px; */
+    /* margin-left: 60px; */
+    margin-top: 20px;
+    margin-top: 20px;
+    width:800px;
+}
+#signout_button{
+    display: flex;
+    justify-content: right;
+}
+#main{
+    width:60vw;
+}
+
+.threshold, .loc, .results, .phno
+{
+    width:60vw;
+
+}
+#table1{
+    width:60vw;
+
+}
+
+
+
+
+ 

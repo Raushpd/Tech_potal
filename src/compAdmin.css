@@ -1,0 +1,154 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:auto;
+}
+
+.popup-content{
+    margin: auto;
+  background: rgb(255, 255, 255);
+  
+  width: 50%;
+  padding: 5px;
+
+}
+.popup-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.company,.user,.email{
+    display:flex;
+}
+
+
+.floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+	.floating-label {
+		font-size: 15px;
+		color: black;
+		position: absolute;
+		pointer-events: none;
+		top: 3px;
+		left: 12px;
+		transition: all 0.1s ease;
+	}
+
+	input:focus ~ .floating-label,
+	input:not(:focus):valid ~ .floating-label {
+		top: -15px;
+		bottom: 0px;
+		left: 0px;
+		font-size: 12px;
+		opacity: 1;
+		color: #404040;
+	}
+
+
+.row {
+	margin-top: 50px;
+}
+
+
+
+table#head {
+    table-layout: fixed ;
+    width: 800px ;
+    border-collapse: collapse ;
+    
+  }
+  table#head th {
+    width: 50% ;
+    padding: 10px ;
+  }
+  
+  table#head caption {
+    font-style: italic ;
+  }  
+table#content {
+    table-layout: fixed ;
+    width: 800px ;
+    border-collapse: collapse ;
+    
+  }
+  table#content td {
+    width: 50% ;
+    padding: 10px ;
+    /* background-color: red; */
+    text-align: center;
+  }
+  
+  table#content caption {
+    font-style: italic ;
+  }  
+hr{
+    width:115%;
+    margin-left: 30px;
+    
+}
+.popup{
+    margin-left: 20px;
+}
+
+.popup hr{
+    color: red;
+    margin-left: -24px;
+    width:105%;
+}
+
+#adduser{
+display:flex;
+justify-items: baseline;
+margin-left:80%;
+cursor: pointer;
+
+/* background-color: green; */
+}
+.user, .close{
+    
+    margin-left:20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 17px;
+    /* margin:10px; */
+}
+
+
+.user{
+    color: blue;
+}
+.add{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* background-color: black; */
+}
+
+.addnewuser{
+    background-color: blue;
+    padding:10px;
+    margin:0;
+    color:white;
+
+
+}
+
+.form{
+    margin-top: 20px;
+    margin-right:0;
+    margin-left:50px;
+}
+
